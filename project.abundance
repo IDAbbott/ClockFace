@@ -26,7 +26,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3000
+          "ioValue": 1200
         }
       ]
     },
@@ -51,14 +51,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "ClockFace",
-          "currentEquation": "ClockFace"
+          "ioValue": "ClockFace1200",
+          "currentEquation": "ClockFace1200"
         }
       ],
       "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "ClockFace"
+      "partName": "ClockFace1200"
     }
   ],
   "allConnectors": [
