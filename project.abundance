@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19444444444444442,
-      "y": 0.4103194103194104,
+      "x": 0.21594982078853045,
+      "y": 0.20884520884520885,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -92,116 +92,6 @@
       ]
     },
     {
-      "atomType": "ShrinkWrap",
-      "x": 0.4336917562724014,
-      "y": 0.6707616707616707,
-      "uniqueID": "id-26",
-      "name": "Shrink Wrap",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "move-circle-250-300-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "move-circle-250-750-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": {
-            "geometry": "move-circle-250-0-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        }
-      ]
-    },
-    {
       "atomType": "Move",
       "x": 0.32795698924731187,
       "y": 0.9041769041769042,
@@ -265,6 +155,43 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2114695340501792,
+      "y": 0.3783783783783784,
+      "uniqueID": "id-52",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 100
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2992831541218638,
+      "y": 0.2628992628992629,
+      "uniqueID": "id-55",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 350
+        },
+        {
+          "name": "yDist",
+          "ioValue": 220,
+          "currentEquation": "220"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -284,34 +211,24 @@
       "ap2ID": "id-31"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-11",
-      "ap2ID": "id-45"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-14",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-20",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-26",
-      "ap2ID": "id-41"
-    },
-    {
       "ap2Name": "geometry2",
       "ap1ID": "id-31",
       "ap2ID": "id-41"
     },
     {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-45",
-      "ap2ID": "id-26"
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-41",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-52",
+      "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-52",
+      "ap2ID": "id-55"
     }
   ],
   "unitsKey": "MM",
