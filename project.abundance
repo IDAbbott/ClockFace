@@ -61,21 +61,9 @@
       "partName": "ClockFace1200"
     },
     {
-      "atomType": "Import",
-      "x": 0.14540816326530612,
-      "y": 0.7227488151658769,
-      "uniqueID": "id-105",
-      "fileName": "RadiumGirlsTxt.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "IDAbbott",
-      "repoName": "ClockFace",
-      "SVGwidth": 80
-    },
-    {
       "atomType": "Assembly",
-      "x": 0.397108843537415,
-      "y": 0.49526066350710896,
+      "x": 0.45833333333333337,
+      "y": 0.4360189573459715,
       "uniqueID": "id-107",
       "ioValues": [
         {
@@ -90,8 +78,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.24540816326530612,
-      "y": 0.7227488151658769,
+      "x": 0.3392857142857143,
+      "y": 0.7748815165876777,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -100,23 +88,23 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": -10
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 12
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.33758503401360546,
-      "y": 0.7037914691943128,
+      "x": 0.40986394557823125,
+      "y": 0.7227488151658769,
       "uniqueID": "id-124",
       "ioValues": [
         {
@@ -125,7 +113,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 2
         }
       ]
     },
@@ -141,9 +129,47 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 1
         }
       ]
+    },
+    {
+      "atomType": "Text",
+      "x": 0.11394557823129252,
+      "y": 0.7322274881516587,
+      "uniqueID": "id-132",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "Text",
+          "ioValue": "Radium Girls",
+          "currentEquation": "Radium Girls"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "ROBOTO",
+          "currentEquation": "ROBOTO"
+        }
+      ],
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 1
+    },
+    {
+      "atomType": "Color",
+      "x": 0.22874149659863946,
+      "y": 0.7582938388625592,
+      "uniqueID": "id-137",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Default"
     }
   ],
   "allConnectors": [
@@ -153,14 +179,14 @@
       "ap2ID": "id-128"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-105",
-      "ap2ID": "id-112"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-107",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-107",
+      "ap2ID": "id-93"
     },
     {
       "ap2Name": "geometry",
@@ -176,6 +202,16 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-128",
       "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-132",
+      "ap2ID": "id-137"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-137",
+      "ap2ID": "id-112"
     }
   ],
   "unitsKey": "MM",
