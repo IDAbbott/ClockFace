@@ -134,31 +134,6 @@
       ]
     },
     {
-      "atomType": "Text",
-      "x": 0.11394557823129252,
-      "y": 0.7322274881516587,
-      "uniqueID": "id-132",
-      "ioValues": [
-        {
-          "name": "Font Size",
-          "ioValue": 10,
-          "currentEquation": "10"
-        },
-        {
-          "name": "Text",
-          "ioValue": "Radium Girls",
-          "currentEquation": "Radium Girls"
-        },
-        {
-          "name": "Font Family",
-          "ioValue": "ROBOTO",
-          "currentEquation": "ROBOTO"
-        }
-      ],
-      "fontFamily": "ROBOTO",
-      "selectedFontIndex": 1
-    },
-    {
       "atomType": "Color",
       "x": 0.22874149659863946,
       "y": 0.7582938388625592,
@@ -170,6 +145,18 @@
         }
       ],
       "selectedColor": "Default"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.09863945578231294,
+      "y": 0.5687203791469194,
+      "uniqueID": "id-140",
+      "fileName": "SmallRadiumGirlsMirrorTxt.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "IDAbbott",
+      "repoName": "ClockFace",
+      "SVGwidth": 80
     }
   ],
   "allConnectors": [
@@ -202,11 +189,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-128",
       "ap2ID": "id-107"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-132",
-      "ap2ID": "id-137"
     },
     {
       "ap2Name": "geometry",
