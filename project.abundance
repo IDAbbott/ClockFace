@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19802867383512546,
-      "y": 0.3906633906633907,
+      "x": 0.11224489795918369,
+      "y": 0.3222748815165877,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.2661290322580645,
-      "y": 0.5675675675675675,
+      "x": 0.5569727891156463,
+      "y": 0.6469194312796208,
       "uniqueID": "id-93",
       "ioValues": [
         {
@@ -59,18 +59,123 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "ClockFace1200"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.14540816326530612,
+      "y": 0.7227488151658769,
+      "uniqueID": "id-105",
+      "fileName": "RadiumGirlsTxt.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "IDAbbott",
+      "repoName": "ClockFace",
+      "SVGwidth": 80
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.397108843537415,
+      "y": 0.49526066350710896,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.24540816326530612,
+      "y": 0.7227488151658769,
+      "uniqueID": "id-112",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.33758503401360546,
+      "y": 0.7037914691943128,
+      "uniqueID": "id-124",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2122448979591837,
+      "y": 0.3222748815165877,
+      "uniqueID": "id-128",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-4",
+      "ap2ID": "id-128"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-105",
+      "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-107",
       "ap2ID": "id-2"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-93"
+      "ap1ID": "id-112",
+      "ap2ID": "id-124"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-124",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-128",
+      "ap2ID": "id-107"
     }
   ],
   "unitsKey": "MM",
