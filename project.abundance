@@ -78,8 +78,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3392857142857143,
-      "y": 0.7748815165876777,
+      "x": 0.2457482993197279,
+      "y": 0.528436018957346,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -88,23 +88,22 @@
         },
         {
           "name": "xDist",
-          "ioValue": -10
+          "ioValue": -25
         },
         {
           "name": "yDist",
-          "ioValue": 12
+          "ioValue": 20
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.40986394557823125,
-      "y": 0.7227488151658769,
+      "x": 0.5076530612244897,
+      "y": 0.8080568720379147,
       "uniqueID": "id-124",
       "ioValues": [
         {
@@ -135,8 +134,8 @@
     },
     {
       "atomType": "Color",
-      "x": 0.22874149659863946,
-      "y": 0.7582938388625592,
+      "x": 0.14710884353741496,
+      "y": 0.523696682464455,
       "uniqueID": "id-137",
       "ioValues": [
         {
@@ -145,6 +144,95 @@
         }
       ],
       "selectedColor": "Default"
+    },
+    {
+      "atomType": "Text",
+      "x": 0.05952380952380952,
+      "y": 0.523696682464455,
+      "uniqueID": "id-163",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "Text",
+          "ioValue": "Radium Girls",
+          "currentEquation": "Radium Girls"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "GREAT_VIBES",
+          "currentEquation": "GREAT_VIBES"
+        }
+      ],
+      "fontFamily": "GREAT_VIBES",
+      "selectedFontIndex": 8
+    },
+    {
+      "atomType": "Text",
+      "x": 0.07568027210884354,
+      "y": 0.7630331753554502,
+      "uniqueID": "id-169",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Wyong Drama Group",
+          "currentEquation": "Wyong Drama Group"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "GREAT_VIBES",
+          "currentEquation": "GREAT_VIBES"
+        }
+      ],
+      "fontFamily": "GREAT_VIBES",
+      "selectedFontIndex": 8
+    },
+    {
+      "atomType": "Move",
+      "x": 0.17568027210884354,
+      "y": 0.7630331753554502,
+      "uniqueID": "id-174",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.31547619047619047,
+      "y": 0.6966824644549763,
+      "uniqueID": "id-180",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -169,6 +257,11 @@
       "ap2ID": "id-124"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-112",
+      "ap2ID": "id-180"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-124",
       "ap2ID": "id-107"
@@ -182,6 +275,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-137",
       "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-163",
+      "ap2ID": "id-137"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-169",
+      "ap2ID": "id-174"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-174",
+      "ap2ID": "id-180"
     }
   ],
   "unitsKey": "MM",
