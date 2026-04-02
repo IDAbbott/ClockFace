@@ -153,8 +153,7 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "Text",
@@ -172,8 +171,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.07568027210884354,
-      "y": 0.7630331753554502,
+      "x": 0.07653061224489796,
+      "y": 0.7725118483412322,
       "uniqueID": "id-169",
       "ioValues": [
         {
@@ -206,11 +205,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -30
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 20
         },
         {
           "name": "zDist",
@@ -231,6 +230,58 @@
         {
           "name": "Shape 2",
           "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Text",
+      "x": 0.07568027210884354,
+      "y": 0.90521327014218,
+      "uniqueID": "id-185",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "2026",
+          "currentEquation": "Lorem Ipsum"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "GREAT_VIBES",
+          "currentEquation": "GREAT_VIBES"
+        }
+      ],
+      "fontFamily": "GREAT_VIBES",
+      "selectedFontIndex": 8
+    },
+    {
+      "atomType": "Move",
+      "x": 0.17261904761904762,
+      "y": 0.895734597156398,
+      "uniqueID": "id-190",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -5
+        },
+        {
+          "name": "yDist",
+          "ioValue": 10
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     }
@@ -250,11 +301,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-107",
       "ap2ID": "id-93"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-112",
-      "ap2ID": "id-124"
     },
     {
       "ap2Name": "Shape 1",
@@ -289,6 +335,21 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-174",
+      "ap2ID": "id-180"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-180",
+      "ap2ID": "id-124"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-185",
+      "ap2ID": "id-190"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-190",
       "ap2ID": "id-180"
     }
   ],
