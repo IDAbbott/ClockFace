@@ -145,18 +145,6 @@
         }
       ],
       "selectedColor": "Default"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.09863945578231294,
-      "y": 0.5687203791469194,
-      "uniqueID": "id-140",
-      "fileName": "SmallRadiumGirlsMirrorTxt.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "IDAbbott",
-      "repoName": "ClockFace",
-      "SVGwidth": 80
     }
   ],
   "allConnectors": [
