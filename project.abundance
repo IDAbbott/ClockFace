@@ -68,8 +68,7 @@
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "diameter",
@@ -188,8 +187,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -299,6 +297,104 @@
           "ioValue": 7
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2534722222222222,
+      "y": 0.726829268292683,
+      "uniqueID": "id-288",
+      "name": "Test",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-290",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1840277777777778,
+          "y": 0.3878048780487805,
+          "uniqueID": "id-292",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.28402777777777777,
+          "y": 0.3878048780487805,
+          "uniqueID": "id-295",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.421875,
+          "y": 0.6926829268292682,
+          "uniqueID": "id-299",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Test",
+              "currentEquation": "Test"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Test"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-292",
+          "ap2ID": "id-295"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-295",
+          "ap2ID": "id-290"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-295",
+          "ap2ID": "id-299"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
